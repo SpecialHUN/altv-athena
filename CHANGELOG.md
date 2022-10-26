@@ -40,6 +40,15 @@ Added console command in-client in debug mode: 'rmluicontrols'
 Change sprite interface for RMLUI to be 3D only
 Fix TextLabel update bug 
 RMLUI based 3D in-world menu -> AthenaClient.rmlui.menu3D
+AthenaClient.webview.page -> A page constructor made easy.
+AthenaClient.spinner -> AthenaClient.screen.spinner
+AthenaClient.shard -> AthenaClient.screen.shard
+AthenaClient.minimap -> AthenaClient.screen.minimap
+AthenaClient.notification -> AthenaClient.screen.notification
+AthenaClient.menus -> AthenaClient.wheelMenus
+/toggledoor -> Toggle closest door to the player
+Added Door State Streaming Service
+Added Door State Saving to Database -> Collection: 'doorstates'
 ```
 
 ## 3.9.0
